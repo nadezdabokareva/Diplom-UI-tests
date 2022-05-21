@@ -3,32 +3,38 @@ import POM.MainPage;
 import POM.PersonalCabinetPage;
 import POM.RegistrationPage;
 import org.apache.commons.lang3.RandomStringUtils;
+import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import java.util.function.Supplier;
-
-import static com.codeborne.selenide.Selenide.open;
+import static com.codeborne.selenide.Selenide.*;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-public class RegistrationTest {
+public class RegistrationTests {
 
     private MainPage mainPage;
     private RegistrationPage registrationPage;
     private LoginPage loginPage;
-    private PersonalCabinetPage personalCabinetPage;
 
     @BeforeEach
     void setUp() {
         mainPage = open("https://stellarburgers.nomoreparties.site/", MainPage.class);
-        mainPage.clickToTheButton();}
+        mainPage.clickToTheButton();
+    }
+
+    @AfterEach
+    void tearDown() {
+        clearBrowserCookies();
+        clearBrowserLocalStorage();
+        closeWebDriver();
+    }
 
     @Test
     public void successfulRegistrationTest() {
         String nameForRegistration = RandomStringUtils.randomAlphabetic(10);
         String emailForRegistration = RandomStringUtils.randomAlphabetic(10);
-        String passwordForRegistration = RandomStringUtils.randomAlphabetic(7);;
+        String passwordForRegistration = RandomStringUtils.randomAlphabetic(7);
 
         loginPage = open("https://stellarburgers.nomoreparties.site/login", LoginPage.class);
         loginPage.clickToTheButton();
