@@ -37,7 +37,7 @@ public class RegistrationTests {
         String passwordForRegistration = RandomStringUtils.randomAlphabetic(7);
 
         loginPage = open("https://stellarburgers.nomoreparties.site/login", LoginPage.class);
-        loginPage.clickToTheButton();
+        loginPage.clickToTheRegistrationButton();
         registrationPage = open("https://stellarburgers.nomoreparties.site/register", RegistrationPage.class);
         registrationPage.registrationNewUser(nameForRegistration, emailForRegistration, passwordForRegistration);
 
@@ -53,7 +53,7 @@ public class RegistrationTests {
         String passwordForRegistration = RandomStringUtils.randomAlphabetic(5);
 
         loginPage = open("https://stellarburgers.nomoreparties.site/login", LoginPage.class);
-        loginPage.clickToTheButton();
+        loginPage.clickToTheRegistrationButton();
         registrationPage = open("https://stellarburgers.nomoreparties.site/register", RegistrationPage.class);
         registrationPage.registrationNewUser(nameForRegistration, emailForRegistration, passwordForRegistration);
 
