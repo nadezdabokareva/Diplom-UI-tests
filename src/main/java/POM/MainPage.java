@@ -21,11 +21,9 @@ public class MainPage {
     @FindBy(how = How.CLASS_NAME, using = "button_button__33qZ0")
     private SelenideElement createOrderButton;
 
-//    @FindBy(how = How.XPATH, using = ".//button[contains(text(),'Оформить заказ')]")
-//    private SelenideElement createOrderButton;
 
 
-    public MainPage clickToTheButton(){
+    public MainPage clickToTheEnterButton(){
         enterToAccountButton.shouldBe(Condition.exist).click();
         return this;
     }

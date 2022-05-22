@@ -1,6 +1,5 @@
 import POM.LoginPage;
 import POM.MainPage;
-import POM.PersonalCabinetPage;
 import POM.RegistrationPage;
 import org.apache.commons.lang3.RandomStringUtils;
 import org.junit.jupiter.api.AfterEach;
@@ -20,7 +19,7 @@ public class RegistrationTests {
     @BeforeEach
     void setUp() {
         mainPage = open("https://stellarburgers.nomoreparties.site/", MainPage.class);
-        mainPage.clickToTheButton();
+        mainPage.clickToTheEnterButton();
     }
 
     @AfterEach

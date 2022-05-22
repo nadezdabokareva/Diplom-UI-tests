@@ -18,8 +18,16 @@ public class LoginPage {
     @FindBy(how = How.XPATH, using = ".//button[contains(text(),'Войти')]")
     private SelenideElement enterToAccountButton;
 
+    @FindBy(how = How.XPATH, using = ".//a[contains(text(),'Восстановить пароль')]")
+    private SelenideElement changePasswordButton;
+
     public LoginPage clickToTheRegistrationButton(){
-        $(byText("Зарегистрироваться")).click();
+        registrationLinkButton.click();
+        return this;
+    }
+
+    public LoginPage clickToTheChangePasswordButton(){
+        changePasswordButton.click();
         return this;
     }
 
