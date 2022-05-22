@@ -2,13 +2,14 @@ import POM.LoginPage;
 import POM.MainPage;
 import POM.RegistrationPage;
 import org.apache.commons.lang3.RandomStringUtils;
-import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
+
 
 import static com.codeborne.selenide.Selenide.*;
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertTrue;
+import static org.junit.Assert.assertTrue;
+
 
 public class RegistrationTests {
 
@@ -16,13 +17,13 @@ public class RegistrationTests {
     private RegistrationPage registrationPage;
     private LoginPage loginPage;
 
-    @BeforeEach
+    @Before
     void setUp() {
         mainPage = open("https://stellarburgers.nomoreparties.site/", MainPage.class);
         mainPage.clickToTheEnterButton();
     }
 
-    @AfterEach
+    @After
     void tearDown() {
         clearBrowserCookies();
         clearBrowserLocalStorage();
