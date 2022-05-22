@@ -19,12 +19,12 @@ public class LoginTests {
     private ForgotPasswordPage forgotPasswordPage;
 
     @Before
-    void setUp() {
+    public void setUp() {
         mainPage = open("https://stellarburgers.nomoreparties.site/", MainPage.class);
     }
 
     @After
-    void tearDown() {
+    public void tearDown() {
         clearBrowserCookies();
         clearBrowserLocalStorage();
         closeWebDriver();

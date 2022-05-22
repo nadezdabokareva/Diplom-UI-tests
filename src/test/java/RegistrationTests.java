@@ -18,13 +18,13 @@ public class RegistrationTests {
     private LoginPage loginPage;
 
     @Before
-    void setUp() {
+    public void setUp() {
         mainPage = open("https://stellarburgers.nomoreparties.site/", MainPage.class);
         mainPage.clickToTheEnterButton();
     }
 
     @After
-    void tearDown() {
+    public void tearDown() {
         clearBrowserCookies();
         clearBrowserLocalStorage();
         closeWebDriver();
