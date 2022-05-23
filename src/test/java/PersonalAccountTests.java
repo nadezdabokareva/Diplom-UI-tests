@@ -51,4 +51,26 @@ public class PersonalAccountTests {
     public void goToConstructorTest() {
         assertTrue(mainPage.goToTheConstructor());
     }
+
+    @Test
+    public void goToStellarBurgerLogoTest() {
+        assertTrue(mainPage.goToTheLogoButton());
+    }
+
+    @Test
+    public void exitFromAccountTest() {
+        personalAccountPage = open("https://stellarburgers.nomoreparties.site/account", PersonalAccountPage.class);
+        personalAccountPage.exitFromAccount();
+        assertTrue(loginPage.getTitleFromTheLoginPage());
+    }
+
+    @Test
+    public void enterToAccountTest() {
+        personalAccountPage = open("https://stellarburgers.nomoreparties.site/account", PersonalAccountPage.class);
+        assertTrue(personalAccountPage.getTextFromPersonalProfile());
+    }
+
+
+
+
 }

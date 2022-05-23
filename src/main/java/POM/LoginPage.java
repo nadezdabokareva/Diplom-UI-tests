@@ -21,18 +21,26 @@ public class LoginPage {
     @FindBy(how = How.XPATH, using = ".//a[contains(text(),'Восстановить пароль')]")
     private SelenideElement changePasswordButton;
 
-    public LoginPage clickToTheRegistrationButton(){
+    @FindBy(how = How.XPATH, using = ".//h2[contains(text(),'Вход')]")
+    private SelenideElement loginPageTitle;
+
+    public LoginPage clickToTheRegistrationButton() {
         registrationLinkButton.click();
         return this;
     }
 
-    public LoginPage clickToTheChangePasswordButton(){
+    public LoginPage clickToTheChangePasswordButton() {
         changePasswordButton.click();
         return this;
     }
 
-    public boolean getTitleFromTheLoginPage(){
-        enterToAccountButton.shouldHave(Condition.exactText("Вход"));
+    public boolean getTitleFromTheLoginPage() {
+        loginPageTitle.shouldHave(Condition.exactText("Вход"));
+        return true;
+    }
+
+    public boolean getTitleFromTheLoginButton() {
+        enterToAccountButton.shouldHave(Condition.exactText("Войти"));
         return true;
     }
 

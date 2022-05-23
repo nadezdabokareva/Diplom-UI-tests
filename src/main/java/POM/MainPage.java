@@ -56,9 +56,18 @@ public class MainPage {
     @FindBy(how = How.XPATH, using = ".//h1[contains(text(),'Соберите бургер')]")
     private SelenideElement constructorTitle;
 
+    @FindBy(how = How.XPATH, using = ".//span[contains(text(),'Перетяните булочку сюда (верх)')]")
+    private SelenideElement chooseBreadSlider;
+
     public boolean goToTheConstructor() {
         constructorButton.click();
         constructorTitle.shouldHave(Condition.exactText("Соберите бургер"));
+        return true;
+    }
+
+    public boolean goToTheLogoButton() {
+        logoButton.click();
+        chooseBreadSlider.shouldHave(Condition.exactText("Перетяните булочку сюда (верх)"));
         return true;
     }
 
