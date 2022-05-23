@@ -47,8 +47,22 @@ public class MainPage {
     @FindBy(how = How.XPATH, using = ".//p[contains(text(),'Говяжий метеорит (отбивная)')]")
     private SelenideElement meteoritFillingTitle;
 
+    @FindBy(how = How.CLASS_NAME, using = "AppHeader_header__logo__2D0X2")
+    private SelenideElement logoButton;
 
-    public MainPage clickToTheEnterButton(){
+    @FindBy(how = How.XPATH, using = ".//p[contains(text(),'Конструктор')]")
+    private SelenideElement constructorButton;
+
+    @FindBy(how = How.XPATH, using = ".//h1[contains(text(),'Соберите бургер')]")
+    private SelenideElement constructorTitle;
+
+    public boolean goToTheConstructor() {
+        constructorButton.click();
+        constructorTitle.shouldHave(Condition.exactText("Соберите бургер"));
+        return true;
+    }
+
+    public MainPage clickToTheEnterButton () {
         enterToAccountButton.shouldBe(Condition.exist).click();
         return this;
     }
