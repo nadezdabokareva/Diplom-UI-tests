@@ -1,4 +1,5 @@
 import POM.MainPage;
+import io.qameta.allure.Story;
 import io.qameta.allure.junit4.DisplayName;
 import org.junit.After;
 import org.junit.Before;
@@ -8,16 +9,19 @@ import static com.codeborne.selenide.Selenide.*;
 import static com.codeborne.selenide.Selenide.closeWebDriver;
 import static org.junit.Assert.assertTrue;
 
-public class ConstructorTests {
+@Story("Тесты на работу с конструктором")
+public class ConstructorTestsInChrome {
 
     private MainPage mainPage;
 
     @Before
+    @DisplayName("Открывается сайт")
     public void setUp() {
         mainPage = open("https://stellarburgers.nomoreparties.site/", MainPage.class);
     }
 
     @After
+    @DisplayName("Очищение кеша")
     public void tearDown() {
         clearBrowserCookies();
         clearBrowserLocalStorage();

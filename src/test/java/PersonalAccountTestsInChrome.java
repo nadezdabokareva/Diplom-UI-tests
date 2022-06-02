@@ -1,6 +1,7 @@
 import POM.LoginPage;
 import POM.MainPage;
 import POM.PersonalAccountPage;
+import io.qameta.allure.Story;
 import io.qameta.allure.junit4.DisplayName;
 import org.junit.After;
 import org.junit.Before;
@@ -10,13 +11,15 @@ import static com.codeborne.selenide.Selenide.*;
 import static com.codeborne.selenide.Selenide.closeWebDriver;
 import static org.junit.Assert.assertTrue;
 
-public class PersonalAccountTests {
+@Story("Тесты в личном кабинете")
+public class PersonalAccountTestsInChrome {
 
     private MainPage mainPage;
     private PersonalAccountPage personalAccountPage;
     private LoginPage loginPage;
 
     @Before
+    @DisplayName("Создание логопассов, авторизация")
     public void setUp() {
         String email = "lesnoiolen666@gmail.com";
         String password = "123456";
@@ -31,6 +34,7 @@ public class PersonalAccountTests {
     }
 
     @After
+    @DisplayName("Очищение кеша")
     public void tearDown() {
         clearBrowserCookies();
         clearBrowserLocalStorage();
