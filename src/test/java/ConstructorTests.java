@@ -1,4 +1,5 @@
 import POM.MainPage;
+import io.qameta.allure.junit4.DisplayName;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -24,16 +25,19 @@ public class ConstructorTests {
     }
 
     @Test
+    @DisplayName("Тест перехода к разделу начинок")
     public void goToTheFillingChapterTest() {
         assertTrue(mainPage.goToFillingChapter());
     }
 
     @Test
+    @DisplayName("Тест перехода к разделу соусов")
     public void goToTheSauceChapterTest() {
         assertTrue(mainPage.goToSauceChapter());
     }
 
     @Test
+    @DisplayName("Тест перехода к разделу булок")
     public void goToTheBreadChapterTest() {
         assertTrue(mainPage.goToBreadChapter());
     }

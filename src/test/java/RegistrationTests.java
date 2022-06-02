@@ -1,6 +1,7 @@
 import POM.LoginPage;
 import POM.MainPage;
 import POM.RegistrationPage;
+import io.qameta.allure.junit4.DisplayName;
 import org.apache.commons.lang3.RandomStringUtils;
 import org.junit.After;
 import org.junit.Before;
@@ -31,6 +32,7 @@ public class RegistrationTests {
     }
 
     @Test
+    @DisplayName("Тест успешной регистрации пользователя")
     public void successfulRegistrationTest() {
         String nameForRegistration = RandomStringUtils.randomAlphabetic(10);
         String emailForRegistration = RandomStringUtils.randomAlphabetic(10);
@@ -47,6 +49,7 @@ public class RegistrationTests {
     }
 
     @Test
+    @DisplayName("Тест провальной регистрации (из-за пароля < 6 символов)")
     public void unSuccessfulRegistrationTest() {
         String nameForRegistration = RandomStringUtils.randomAlphabetic(10);
         String emailForRegistration = RandomStringUtils.randomAlphabetic(10);

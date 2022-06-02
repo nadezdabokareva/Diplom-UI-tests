@@ -2,14 +2,11 @@ package POM;
 
 import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.SelenideElement;
+import io.qameta.allure.Step;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 
-import static com.codeborne.selenide.Selectors.byXpath;
-import static com.codeborne.selenide.Selenide.$;
-
 public class PersonalAccountPage {
-    //https://stellarburgers.nomoreparties.site/account/profile
 
     @FindBy(how = How.XPATH, using = ".//a[contains(text(),'История заказов')]")
     private SelenideElement ordersHistory;
@@ -26,28 +23,16 @@ public class PersonalAccountPage {
     @FindBy(how = How.XPATH, using = ".//a[contains(text(),'Профиль')]")
     private SelenideElement profileTitle;
 
-    public PersonalAccountPage goToTheOrdersHistory() {
-        personalAccountMessage.shouldBe(Condition.exist).click();
-        return this;
-    }
-
+    @Step("Выйти из аккаунта")
     public PersonalAccountPage exitFromAccount() {
         exitButton.shouldBe(Condition.exist).click();
         return this;
     }
 
-    public boolean getTextFromPersonalAccountMessage() {
-        personalAccountMessage.shouldBe(Condition.exist).shouldHave(Condition.exactText
-                ("В этом разделе вы можете изменить свои персональные данные"));
-        return true;
-    }
-
+    @Step("Взять текст с заглавия личного кабинета")
     public boolean getTextFromPersonalProfile() {
         profileTitle.shouldHave(Condition.exactText("Профиль"));
         return true;
     }
-
-
-
 
 }

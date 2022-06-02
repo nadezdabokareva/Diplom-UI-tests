@@ -2,6 +2,7 @@ import POM.ForgotPasswordPage;
 import POM.LoginPage;
 import POM.MainPage;
 import POM.RegistrationPage;
+import io.qameta.allure.junit4.DisplayName;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -31,6 +32,7 @@ public class LoginTests {
     }
 
     @Test
+    @DisplayName("Тест авторизации через кнопку входа")
     public void loginUserWithTheEnterToAccountButton() {
         String emailForLogin = "lesnoiolen666@gmail.com";
         String passwordForLogin = "123456";
@@ -44,6 +46,7 @@ public class LoginTests {
     }
 
     @Test
+    @DisplayName("Тест авторизации через личный кабинет")
     public void loginUserWithThePersonalAccountButton() {
         String emailForLogin = "lesnoiolen666@gmail.com";
         String passwordForLogin = "123456";
@@ -57,6 +60,7 @@ public class LoginTests {
     }
 
     @Test
+    @DisplayName("Тест авторизации через окно регистрации")
     public void loginUserWithTheRegistrationForm() {
         String emailForLogin = "lesnoiolen666@gmail.com";
         String passwordForLogin = "123456";
@@ -73,6 +77,7 @@ public class LoginTests {
     }
 
     @Test
+    @DisplayName("Тест авторизации через форму восстановления пароля")
     public void loginUserWithTheChangePasswordButton() {
         String emailForLogin = "lesnoiolen666@gmail.com";
         String passwordForLogin = "123456";
@@ -89,6 +94,5 @@ public class LoginTests {
 
         assertTrue(mainPage.getTitleFromTheCreateOrderButton());
     }
-
 
 }

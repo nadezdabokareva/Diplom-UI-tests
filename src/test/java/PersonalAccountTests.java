@@ -1,6 +1,7 @@
 import POM.LoginPage;
 import POM.MainPage;
 import POM.PersonalAccountPage;
+import io.qameta.allure.junit4.DisplayName;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -36,28 +37,20 @@ public class PersonalAccountTests {
         closeWebDriver();
     }
 
-//    @Test
-//    public void goToAccountTest() {
-//
-//        try {
-//            personalAccountPage.goToTheOrdersHistory();
-//            assertTrue(personalAccountPage.getTextFromPersonalProfile());
-//        } catch (Exception e) {
-//            System.out.println(("тест не сработал"));
-//        }
-//    }
-
     @Test
+    @DisplayName("Тест перехода к разделу конструктора")
     public void goToConstructorTest() {
         assertTrue(mainPage.goToTheConstructor());
     }
 
     @Test
+    @DisplayName("Тест перехода через логотип")
     public void goToStellarBurgerLogoTest() {
         assertTrue(mainPage.goToTheLogoButton());
     }
 
     @Test
+    @DisplayName("Тест выхода из аккаунта")
     public void exitFromAccountTest() {
         personalAccountPage = open("https://stellarburgers.nomoreparties.site/account", PersonalAccountPage.class);
         personalAccountPage.exitFromAccount();
@@ -65,12 +58,10 @@ public class PersonalAccountTests {
     }
 
     @Test
+    @DisplayName("Тест входа в аккаунт")
     public void enterToAccountTest() {
         personalAccountPage = open("https://stellarburgers.nomoreparties.site/account", PersonalAccountPage.class);
         assertTrue(personalAccountPage.getTextFromPersonalProfile());
     }
-
-
-
 
 }

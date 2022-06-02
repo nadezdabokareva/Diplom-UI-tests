@@ -2,6 +2,7 @@ package POM;
 
 import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.SelenideElement;
+import io.qameta.allure.Step;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 
@@ -9,32 +10,35 @@ import static com.codeborne.selenide.Selectors.*;
 import static com.codeborne.selenide.Selenide.$;
 
 public class RegistrationPage {
-    //https://stellarburgers.nomoreparties.site/register
 
-    @FindBy(how = How.CLASS_NAME, using = "input__error")
+    @FindBy(how = How.XPATH, using = ".//p[contains(text(),'Некорректный пароль')]")
     private SelenideElement registrationErrorText;
 
     @FindBy(how = How.XPATH, using = ".//a[contains(text(),'Войти')]")
     private SelenideElement enterToAccountButtonOnTheRegistrationForm;
 
+    @FindBy(how = How.XPATH, using = ".//button[contains(text(),'Зарегистрироваться')]")
+    private SelenideElement registrationButton;
 
+    @Step("Регистрация нового пользователя")
     public void registrationNewUser(String nameForRegistration, String emailForRegistration, String passwordForRegistration){
         $(byName("name")).shouldBe(Condition.exist).setValue(nameForRegistration);
         $(byXpath("//body/div[@id='root']/div[1]/main[1]/div[1]/form[1]/fieldset[2]/div[1]/div[1]/input[1]"))
                 .shouldBe(Condition.exist).setValue(emailForRegistration); //путь создан с помощью расширения ChroPath
         $(byName("Пароль")).shouldBe(Condition.exist).setValue(passwordForRegistration);
-        $(byText("Зарегистрироваться")).click();
+        registrationButton.click();
     }
 
+    @Step("Взять текст от ошибочной регистрации")
     public boolean showRegistrationErrorText(){
-        $(byClassName("input__error")).shouldHave(Condition.exactText("Некорректный пароль"));
+        registrationErrorText.shouldHave(Condition.exactText("Некорректный пароль"));
         return true;
     }
 
+    @Step("Нажать на кнопку входа в аккаунт")
     public RegistrationPage clickToEnterToAccountButton(){
         enterToAccountButtonOnTheRegistrationForm.shouldBe(Condition.visible).click();
         return this;
     }
-
 
 }

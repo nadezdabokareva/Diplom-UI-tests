@@ -2,7 +2,7 @@ package POM;
 
 import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.SelenideElement;
-import org.openqa.selenium.By;
+import io.qameta.allure.Step;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 
@@ -10,7 +10,6 @@ import static com.codeborne.selenide.Selectors.*;
 import static com.codeborne.selenide.Selenide.$;
 
 public class LoginPage {
-//https://stellarburgers.nomoreparties.site/login
 
     @FindBy(how = How.XPATH, using = ".//a[contains(text(),'Зарегистрироваться')]")
     private SelenideElement registrationLinkButton;
@@ -24,26 +23,25 @@ public class LoginPage {
     @FindBy(how = How.XPATH, using = ".//h2[contains(text(),'Вход')]")
     private SelenideElement loginPageTitle;
 
+    @Step("Нажать на кнопку регистрации")
     public LoginPage clickToTheRegistrationButton() {
         registrationLinkButton.click();
         return this;
     }
 
+    @Step("Нажать на кнопку смены пароля")
     public LoginPage clickToTheChangePasswordButton() {
         changePasswordButton.click();
         return this;
     }
 
+    @Step("Получить заглавие со страницы авторизации")
     public boolean getTitleFromTheLoginPage() {
         loginPageTitle.shouldHave(Condition.exactText("Вход"));
         return true;
     }
 
-    public boolean getTitleFromTheLoginButton() {
-        enterToAccountButton.shouldHave(Condition.exactText("Войти"));
-        return true;
-    }
-
+    @Step("Авторизовать нового пользователя")
     public void loginANewUser(String emailForLogin, String passwordForLogin){
         $(byName("name")).shouldBe(Condition.exist).setValue(emailForLogin);
         $(byName("Пароль")).shouldBe(Condition.exist).setValue(passwordForLogin);
