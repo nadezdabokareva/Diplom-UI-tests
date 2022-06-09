@@ -8,7 +8,6 @@ import org.junit.Before;
 import org.junit.Test;
 
 import static com.codeborne.selenide.Selenide.*;
-import static com.codeborne.selenide.Selenide.closeWebDriver;
 import static org.junit.Assert.assertTrue;
 
 @Story("Тесты в личном кабинете")

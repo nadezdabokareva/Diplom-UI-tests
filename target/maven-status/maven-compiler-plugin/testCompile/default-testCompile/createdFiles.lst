@@ -1,4 +1,8 @@
-PersonalAccountTests.class
-ConstructorTests.class
-LoginTests.class
-RegistrationTests.class
+PersonalAccountTestsInYandexBrowser.class
+LoginTestsInYandexBrowser.class
+RegistrationTestInYandexBrowser.class
+LoginTestsInChrome.class
+ConstructorTestsInChrome.class
+RegistrationTestsInChrome.class
+ConstructorTestInTheYandexBrowser.class
+PersonalAccountTestsInChrome.class

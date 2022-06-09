@@ -1,6 +1,9 @@
+entity\User.class
 POM\RegistrationPage.class
-DeleteMethod\DeleteUser.class
+restClients\BasicRestClient.class
 POM\ForgotPasswordPage.class
+POM\LoginPage.class
+entity\User$UserBuilder.class
+restClients\UserRestClient.class
 POM\MainPage.class
 POM\PersonalAccountPage.class
-POM\LoginPage.class

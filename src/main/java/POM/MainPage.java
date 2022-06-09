@@ -65,39 +65,40 @@ public class MainPage {
     }
 
     @Step("Нажать на кнопку входа")
-    public MainPage clickToTheEnterButton () {
+    public MainPage clickToTheEnterButton() {
         enterToAccountButton.shouldBe(Condition.exist).click();
         return this;
     }
 
     @Step("Перейти в личный кабинет")
-    public MainPage goToThePersonalAccount(){
+    public MainPage goToThePersonalAccount() {
         personalAccountButton.shouldBe(Condition.exist).click();
         return this;
     }
 
     @Step("Взять текст с кнопки 'офорить заказ'")
-    public boolean getTitleFromTheCreateOrderButton(){
+    public boolean getTitleFromTheCreateOrderButton() {
         orderButton.shouldHave(Condition.exactText("Оформить заказ"));
         return true;
     }
 
     @Step("Перейти к разделу с начинками")
-    public boolean goToFillingChapter(){
+    public boolean goToFillingChapter() {
         fillingButton.click();
         meteoritFillingTitle.shouldBe(Condition.visible);
         return true;
     }
 
     @Step("Перейти к разделу с соусами")
-    public boolean goToSauceChapter(){
+    public boolean goToSauceChapter() {
         sauceButton.click();
         sauceGalacticTitle.shouldBe(Condition.visible);
         return true;
     }
 
     @Step("Перейти к разделу с булками")
-    public boolean goToBreadChapter(){
+    public boolean goToBreadChapter() {
+        sauceButton.click();
         breadButton.click();
         kratorBreadTitle.shouldBe(Condition.visible);
         return true;

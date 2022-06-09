@@ -9,7 +9,6 @@ import org.junit.Test;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 import static com.codeborne.selenide.Selenide.*;
-import static com.codeborne.selenide.Selenide.closeWebDriver;
 import static com.codeborne.selenide.WebDriverRunner.setWebDriver;
 import static org.junit.Assert.assertTrue;
 

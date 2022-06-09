@@ -6,7 +6,8 @@ import io.qameta.allure.Step;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 
-import static com.codeborne.selenide.Selectors.*;
+import static com.codeborne.selenide.Selectors.byName;
+import static com.codeborne.selenide.Selectors.byXpath;
 import static com.codeborne.selenide.Selenide.$;
 
 public class RegistrationPage {
@@ -21,7 +22,7 @@ public class RegistrationPage {
     private SelenideElement registrationButton;
 
     @Step("Регистрация нового пользователя")
-    public void registrationNewUser(String nameForRegistration, String emailForRegistration, String passwordForRegistration){
+    public void registrationNewUser(String nameForRegistration, String emailForRegistration, String passwordForRegistration) {
         $(byName("name")).shouldBe(Condition.exist).setValue(nameForRegistration);
         $(byXpath("//body/div[@id='root']/div[1]/main[1]/div[1]/form[1]/fieldset[2]/div[1]/div[1]/input[1]"))
                 .shouldBe(Condition.exist).setValue(emailForRegistration); //путь создан с помощью расширения ChroPath
@@ -30,13 +31,13 @@ public class RegistrationPage {
     }
 
     @Step("Взять текст от ошибочной регистрации")
-    public boolean showRegistrationErrorText(){
+    public boolean showRegistrationErrorText() {
         registrationErrorText.shouldHave(Condition.exactText("Некорректный пароль"));
         return true;
     }
 
     @Step("Нажать на кнопку входа в аккаунт")
-    public RegistrationPage clickToEnterToAccountButton(){
+    public RegistrationPage clickToEnterToAccountButton() {
         enterToAccountButtonOnTheRegistrationForm.shouldBe(Condition.visible).click();
         return this;
     }
