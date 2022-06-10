@@ -1,0 +1,261 @@
+[ {
+  "uid" : "a6bf6e25adb1b558",
+  "name" : "Тест перехода к разделу начинок",
+  "time" : {
+    "start" : 1654862562244,
+    "stop" : 1654862564981,
+    "duration" : 2737
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "940bed0c6aa84ec3",
+  "name" : "Тест провальной регистрации (из-за пароля < 6 символов)",
+  "time" : {
+    "start" : 1654862636071,
+    "stop" : 1654862639640,
+    "duration" : 3569
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "39de250944ce83c9",
+  "name" : "Тест авторизации через окно регистрации (Yandex)",
+  "time" : {
+    "start" : 1654862589962,
+    "stop" : 1654862595520,
+    "duration" : 5558
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bd2b3f5dfb0e868c",
+  "name" : "Тест авторизации через кнопку входа",
+  "time" : {
+    "start" : 1654862579829,
+    "stop" : 1654862584135,
+    "duration" : 4306
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "832cce243e39b9ce",
+  "name" : "Тест перехода к разделу булок",
+  "time" : {
+    "start" : 1654862557570,
+    "stop" : 1654862559745,
+    "duration" : 2175
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9d5b83db6cd004fa",
+  "name" : "Тест провальной регистрации (из-за пароля < 6 символов) (Yandex)",
+  "time" : {
+    "start" : 1654862544699,
+    "stop" : 1654862551371,
+    "duration" : 6672
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1cec9c1bcce8bd5",
+  "name" : "Тест входа в аккаунт",
+  "time" : {
+    "start" : 1654862606369,
+    "stop" : 1654862610092,
+    "duration" : 3723
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6a589f56e8ca3c8c",
+  "name" : "Тест перехода к разделу начинок (Yandex)",
+  "time" : {
+    "start" : 1654862542050,
+    "stop" : 1654862544680,
+    "duration" : 2630
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "59c04adbee16ba69",
+  "name" : "Тест перехода к разделу булок (Yandex)",
+  "time" : {
+    "start" : 1654862539158,
+    "stop" : 1654862542045,
+    "duration" : 2887
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "47c6d7335870e6d0",
+  "name" : "Тест перехода через логотип (Yandex)",
+  "time" : {
+    "start" : 1654862628494,
+    "stop" : 1654862631767,
+    "duration" : 3273
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "97024cda45fb0ed0",
+  "name" : "Тест перехода к разделу соусов",
+  "time" : {
+    "start" : 1654862559747,
+    "stop" : 1654862562239,
+    "duration" : 2492
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9fe02525c14ffdf8",
+  "name" : "Тест входа в аккаунт (Yandex)",
+  "time" : {
+    "start" : 1654862621198,
+    "stop" : 1654862624803,
+    "duration" : 3605
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a7c4fc0bb83a5f8e",
+  "name" : "Тест авторизации через кнопку входа (Yandex)",
+  "time" : {
+    "start" : 1654862598880,
+    "stop" : 1654862602692,
+    "duration" : 3812
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "eda8764b6362ac16",
+  "name" : "Тест выхода из аккаунта (Yandex)",
+  "time" : {
+    "start" : 1654862624806,
+    "stop" : 1654862628492,
+    "duration" : 3686
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5724932dd909c8a8",
+  "name" : "Тест авторизации через форму восстановления пароля",
+  "time" : {
+    "start" : 1654862573723,
+    "stop" : 1654862579826,
+    "duration" : 6103
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cba71161390bcc66",
+  "name" : "Тест авторизации через окно регистрации",
+  "time" : {
+    "start" : 1654862569209,
+    "stop" : 1654862573719,
+    "duration" : 4510
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6e4e32997006b92d",
+  "name" : "Тест выхода из аккаунта",
+  "time" : {
+    "start" : 1654862610094,
+    "stop" : 1654862614478,
+    "duration" : 4384
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5263e87176c7335e",
+  "name" : "Тест перехода к разделу конструктора",
+  "time" : {
+    "start" : 1654862602702,
+    "stop" : 1654862606367,
+    "duration" : 3665
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7b3b7f2385401b54",
+  "name" : "Тест авторизации через личный кабинет (Yandex)",
+  "time" : {
+    "start" : 1654862595523,
+    "stop" : 1654862598878,
+    "duration" : 3355
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "af737dcf8711a7d0",
+  "name" : "Тест перехода к разделу конструктора (Yandex)",
+  "time" : {
+    "start" : 1654862617756,
+    "stop" : 1654862621196,
+    "duration" : 3440
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e456316641d39793",
+  "name" : "Тест авторизации через личный кабинет",
+  "time" : {
+    "start" : 1654862564989,
+    "stop" : 1654862569207,
+    "duration" : 4218
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9facb75639573642",
+  "name" : "Тест успешной регистрации пользователя (Yandex)",
+  "time" : {
+    "start" : 1654862551376,
+    "stop" : 1654862557566,
+    "duration" : 6190
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c410b9898e00770e",
+  "name" : "Тест перехода к разделу соусов (Yandex)",
+  "time" : {
+    "start" : 1654862535019,
+    "stop" : 1654862539019,
+    "duration" : 4000
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "aa4eb5e1bb607283",
+  "name" : "Тест успешной регистрации пользователя",
+  "time" : {
+    "start" : 1654862631771,
+    "stop" : 1654862636069,
+    "duration" : 4298
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7bb53663361f10cd",
+  "name" : "Тест авторизации через форму восстановления пароля (Yandex)",
+  "time" : {
+    "start" : 1654862584139,
+    "stop" : 1654862589959,
+    "duration" : 5820
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a126530ea4572d10",
+  "name" : "Тест перехода через логотип",
+  "time" : {
+    "start" : 1654862614480,
+    "stop" : 1654862617752,
+    "duration" : 3272
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

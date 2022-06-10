@@ -1,0 +1,351 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "Boka",
+    "children" : [ {
+      "name" : "9600@Boka.main(1)",
+      "children" : [ {
+        "name" : "Тест перехода к разделу начинок (Yandex)",
+        "uid" : "6a589f56e8ca3c8c",
+        "parentUid" : "ec4ec0f4265e756efcf6ee13c3a8c983",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654862542050,
+          "stop" : 1654862544680,
+          "duration" : 2630
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Тест перехода к разделу булок (Yandex)",
+        "uid" : "59c04adbee16ba69",
+        "parentUid" : "ec4ec0f4265e756efcf6ee13c3a8c983",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654862539158,
+          "stop" : 1654862542045,
+          "duration" : 2887
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Тест провальной регистрации (из-за пароля < 6 символов) (Yandex)",
+        "uid" : "9d5b83db6cd004fa",
+        "parentUid" : "ec4ec0f4265e756efcf6ee13c3a8c983",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654862544699,
+          "stop" : 1654862551371,
+          "duration" : 6672
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Тест входа в аккаунт",
+        "uid" : "1cec9c1bcce8bd5",
+        "parentUid" : "ec4ec0f4265e756efcf6ee13c3a8c983",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654862606369,
+          "stop" : 1654862610092,
+          "duration" : 3723
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Тест авторизации через кнопку входа",
+        "uid" : "bd2b3f5dfb0e868c",
+        "parentUid" : "ec4ec0f4265e756efcf6ee13c3a8c983",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654862579829,
+          "stop" : 1654862584135,
+          "duration" : 4306
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Тест входа в аккаунт (Yandex)",
+        "uid" : "9fe02525c14ffdf8",
+        "parentUid" : "ec4ec0f4265e756efcf6ee13c3a8c983",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654862621198,
+          "stop" : 1654862624803,
+          "duration" : 3605
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Тест авторизации через кнопку входа (Yandex)",
+        "uid" : "a7c4fc0bb83a5f8e",
+        "parentUid" : "ec4ec0f4265e756efcf6ee13c3a8c983",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654862598880,
+          "stop" : 1654862602692,
+          "duration" : 3812
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Тест перехода к разделу начинок",
+        "uid" : "a6bf6e25adb1b558",
+        "parentUid" : "ec4ec0f4265e756efcf6ee13c3a8c983",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654862562244,
+          "stop" : 1654862564981,
+          "duration" : 2737
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Тест успешной регистрации пользователя (Yandex)",
+        "uid" : "9facb75639573642",
+        "parentUid" : "ec4ec0f4265e756efcf6ee13c3a8c983",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654862551376,
+          "stop" : 1654862557566,
+          "duration" : 6190
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Тест перехода к разделу булок",
+        "uid" : "832cce243e39b9ce",
+        "parentUid" : "ec4ec0f4265e756efcf6ee13c3a8c983",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654862557570,
+          "stop" : 1654862559745,
+          "duration" : 2175
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Тест перехода к разделу соусов (Yandex)",
+        "uid" : "c410b9898e00770e",
+        "parentUid" : "ec4ec0f4265e756efcf6ee13c3a8c983",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654862535019,
+          "stop" : 1654862539019,
+          "duration" : 4000
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Тест авторизации через личный кабинет (Yandex)",
+        "uid" : "7b3b7f2385401b54",
+        "parentUid" : "ec4ec0f4265e756efcf6ee13c3a8c983",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654862595523,
+          "stop" : 1654862598878,
+          "duration" : 3355
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Тест провальной регистрации (из-за пароля < 6 символов)",
+        "uid" : "940bed0c6aa84ec3",
+        "parentUid" : "ec4ec0f4265e756efcf6ee13c3a8c983",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654862636071,
+          "stop" : 1654862639640,
+          "duration" : 3569
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Тест авторизации через форму восстановления пароля",
+        "uid" : "5724932dd909c8a8",
+        "parentUid" : "ec4ec0f4265e756efcf6ee13c3a8c983",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654862573723,
+          "stop" : 1654862579826,
+          "duration" : 6103
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Тест выхода из аккаунта (Yandex)",
+        "uid" : "eda8764b6362ac16",
+        "parentUid" : "ec4ec0f4265e756efcf6ee13c3a8c983",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654862624806,
+          "stop" : 1654862628492,
+          "duration" : 3686
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Тест перехода к разделу конструктора",
+        "uid" : "5263e87176c7335e",
+        "parentUid" : "ec4ec0f4265e756efcf6ee13c3a8c983",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654862602702,
+          "stop" : 1654862606367,
+          "duration" : 3665
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Тест авторизации через личный кабинет",
+        "uid" : "e456316641d39793",
+        "parentUid" : "ec4ec0f4265e756efcf6ee13c3a8c983",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654862564989,
+          "stop" : 1654862569207,
+          "duration" : 4218
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Тест перехода через логотип",
+        "uid" : "a126530ea4572d10",
+        "parentUid" : "ec4ec0f4265e756efcf6ee13c3a8c983",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654862614480,
+          "stop" : 1654862617752,
+          "duration" : 3272
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Тест успешной регистрации пользователя",
+        "uid" : "aa4eb5e1bb607283",
+        "parentUid" : "ec4ec0f4265e756efcf6ee13c3a8c983",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654862631771,
+          "stop" : 1654862636069,
+          "duration" : 4298
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Тест авторизации через форму восстановления пароля (Yandex)",
+        "uid" : "7bb53663361f10cd",
+        "parentUid" : "ec4ec0f4265e756efcf6ee13c3a8c983",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654862584139,
+          "stop" : 1654862589959,
+          "duration" : 5820
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Тест перехода через логотип (Yandex)",
+        "uid" : "47c6d7335870e6d0",
+        "parentUid" : "ec4ec0f4265e756efcf6ee13c3a8c983",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654862628494,
+          "stop" : 1654862631767,
+          "duration" : 3273
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Тест перехода к разделу соусов",
+        "uid" : "97024cda45fb0ed0",
+        "parentUid" : "ec4ec0f4265e756efcf6ee13c3a8c983",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654862559747,
+          "stop" : 1654862562239,
+          "duration" : 2492
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Тест перехода к разделу конструктора (Yandex)",
+        "uid" : "af737dcf8711a7d0",
+        "parentUid" : "ec4ec0f4265e756efcf6ee13c3a8c983",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654862617756,
+          "stop" : 1654862621196,
+          "duration" : 3440
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Тест авторизации через окно регистрации",
+        "uid" : "cba71161390bcc66",
+        "parentUid" : "ec4ec0f4265e756efcf6ee13c3a8c983",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654862569209,
+          "stop" : 1654862573719,
+          "duration" : 4510
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Тест авторизации через окно регистрации (Yandex)",
+        "uid" : "39de250944ce83c9",
+        "parentUid" : "ec4ec0f4265e756efcf6ee13c3a8c983",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654862589962,
+          "stop" : 1654862595520,
+          "duration" : 5558
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Тест выхода из аккаунта",
+        "uid" : "6e4e32997006b92d",
+        "parentUid" : "ec4ec0f4265e756efcf6ee13c3a8c983",
+        "status" : "passed",
+        "time" : {
+          "start" : 1654862610094,
+          "stop" : 1654862614478,
+          "duration" : 4384
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ec4ec0f4265e756efcf6ee13c3a8c983"
+    } ],
+    "uid" : "52235f5e939ab176f84a9e0f83c17a69"
+  } ]
+}

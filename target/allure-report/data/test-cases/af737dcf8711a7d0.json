@@ -1,0 +1,135 @@
+{
+  "uid" : "af737dcf8711a7d0",
+  "name" : "Тест перехода к разделу конструктора (Yandex)",
+  "fullName" : "TestsPersonalAccountInYandexBrowser.goToConstructorTestYandex",
+  "historyId" : "62da9fa736d9bb5092846fbd8e62e257",
+  "time" : {
+    "start" : 1654862617756,
+    "stop" : 1654862621196,
+    "duration" : 3440
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Нажать на кнопку входа",
+      "time" : {
+        "start" : 1654862619450,
+        "stop" : 1654862619642,
+        "duration" : 192
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Авторизовать нового пользователя",
+      "time" : {
+        "start" : 1654862619777,
+        "stop" : 1654862620236,
+        "duration" : 459
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "emailForLogin",
+        "value" : "lesnoiolen666@gmail.com"
+      }, {
+        "name" : "passwordForLogin",
+        "value" : "123456"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Перейти в личный кабинет",
+      "time" : {
+        "start" : 1654862620236,
+        "stop" : 1654862620696,
+        "duration" : 460
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Перейти в конструктор и проверить, что переход успешен",
+      "time" : {
+        "start" : 1654862620696,
+        "stop" : 1654862621031,
+        "duration" : 335
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "TestsPersonalAccountInYandexBrowser"
+  }, {
+    "name" : "testMethod",
+    "value" : "goToConstructorTestYandex"
+  }, {
+    "name" : "suite",
+    "value" : "TestsPersonalAccountInYandexBrowser"
+  }, {
+    "name" : "host",
+    "value" : "Boka"
+  }, {
+    "name" : "thread",
+    "value" : "9600@Boka.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "Тесты в личном кабинете в Яндексе"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "af737dcf8711a7d0.json",
+  "parameterValues" : [ ]
+}

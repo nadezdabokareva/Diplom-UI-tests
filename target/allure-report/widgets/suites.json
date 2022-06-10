@@ -1,0 +1,92 @@
+{
+  "total" : 8,
+  "items" : [ {
+    "uid" : "f97822688f4e253f769ca4caf649f66e",
+    "name" : "TestsLoginInChrome",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "0b5bd15fc5855e00962a1b6f61f318c5",
+    "name" : "TestsLoginInYandexBrowser",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "03d1d82769bdb7951a9bab57a31be715",
+    "name" : "TestsPersonalAccountInChrome",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "81ce0e4d188df68a753e211d206f372c",
+    "name" : "TestsPersonalAccountInYandexBrowser",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "36dd8da7209dedf44205cc6a7590a52a",
+    "name" : "TestConstructorInTheYandexBrowser",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "9bf8026c613f60fd06e86e4e71e24ed7",
+    "name" : "TestsConstructorInChrome",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "a481de02051f8943337b7e3599e6c3ff",
+    "name" : "TestRegistrationInYandexBrowser",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "7c2465d07165ffbac7cd04ecb2c1ebc4",
+    "name" : "TestsRegistrationInChrome",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  } ]
+}

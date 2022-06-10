@@ -1,0 +1,135 @@
+{
+  "uid" : "5263e87176c7335e",
+  "name" : "Тест перехода к разделу конструктора",
+  "fullName" : "TestsPersonalAccountInChrome.goToConstructorTest",
+  "historyId" : "e556bcdc31dedbe26cc8fb55185cfeb6",
+  "time" : {
+    "start" : 1654862602702,
+    "stop" : 1654862606367,
+    "duration" : 3665
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Нажать на кнопку входа",
+      "time" : {
+        "start" : 1654862604524,
+        "stop" : 1654862604666,
+        "duration" : 142
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Авторизовать нового пользователя",
+      "time" : {
+        "start" : 1654862604805,
+        "stop" : 1654862605270,
+        "duration" : 465
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "emailForLogin",
+        "value" : "lesnoiolen666@gmail.com"
+      }, {
+        "name" : "passwordForLogin",
+        "value" : "123456"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Перейти в личный кабинет",
+      "time" : {
+        "start" : 1654862605270,
+        "stop" : 1654862605791,
+        "duration" : 521
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Перейти в конструктор и проверить, что переход успешен",
+      "time" : {
+        "start" : 1654862605791,
+        "stop" : 1654862606129,
+        "duration" : 338
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "TestsPersonalAccountInChrome"
+  }, {
+    "name" : "testMethod",
+    "value" : "goToConstructorTest"
+  }, {
+    "name" : "suite",
+    "value" : "TestsPersonalAccountInChrome"
+  }, {
+    "name" : "host",
+    "value" : "Boka"
+  }, {
+    "name" : "thread",
+    "value" : "9600@Boka.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "Тесты в личном кабинете"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5263e87176c7335e.json",
+  "parameterValues" : [ ]
+}

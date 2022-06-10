@@ -1,0 +1,92 @@
+{
+  "total" : 8,
+  "items" : [ {
+    "uid" : "69f0d64c757ab4086867778687cdd02f",
+    "name" : "Тесты на авторизацию",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "4abc0a0570f6c022b8bcc425d1ac9c3d",
+    "name" : "Тесты на авторизацию в Яндексе",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "b0c95043f2ebc4e0f0a66c7add03fbc0",
+    "name" : "Тесты в личном кабинете",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "9c9c6b227faa25d128cbacb2e13ef0f7",
+    "name" : "Тесты в личном кабинете в Яндексе",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "b07d05d468272c6ea65c3aba36c0b07b",
+    "name" : "Тесты на работу с конструктором в Яндексе",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "72780657d81eb0940fce9e7b472466bc",
+    "name" : "Тесты на работу с конструктором",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "41ddb5dea457851383cd89afdb0aca78",
+    "name" : "Тесты на регистрацию в Яндексе",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "511d0221b7acba2c72ac9e0e32dfd47a",
+    "name" : "Тесты на регистрацию",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  } ]
+}
