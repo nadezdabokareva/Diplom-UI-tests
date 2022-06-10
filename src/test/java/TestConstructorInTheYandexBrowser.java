@@ -11,7 +11,7 @@ import static com.codeborne.selenide.WebDriverRunner.setWebDriver;
 import static org.junit.Assert.assertTrue;
 
 @Story("Тесты на работу с конструктором в Яндексе")
-public class ConstructorTestInTheYandexBrowser {
+public class TestConstructorInTheYandexBrowser {
     private MainPage mainPage;
 
     @Before

@@ -9,7 +9,7 @@ import static com.codeborne.selenide.Selenide.*;
 import static org.junit.Assert.assertTrue;
 
 @Story("Тесты на работу с конструктором")
-public class ConstructorTestsInChrome {
+public class TestsConstructorInChrome {
 
     private MainPage mainPage;
 

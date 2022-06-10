@@ -17,7 +17,7 @@ import static com.codeborne.selenide.Selenide.*;
 import static org.junit.Assert.assertTrue;
 
 @Story("Тесты на авторизацию")
-public class LoginTestsInChrome {
+public class TestsLoginInChrome {
 
     public String emailForLogin;
     public String passwordForLogin;

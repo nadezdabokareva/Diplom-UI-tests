@@ -1,8 +1,8 @@
-PersonalAccountTestsInYandexBrowser.class
-LoginTestsInYandexBrowser.class
-RegistrationTestInYandexBrowser.class
-LoginTestsInChrome.class
-ConstructorTestsInChrome.class
-RegistrationTestsInChrome.class
-ConstructorTestInTheYandexBrowser.class
-PersonalAccountTestsInChrome.class
+TestsLoginInChrome.class
+TestsLoginInYandexBrowser.class
+TestsPersonalAccountInChrome.class
+TestsConstructorInChrome.class
+TestsRegistrationInChrome.class
+TestConstructorInTheYandexBrowser.class
+TestRegistrationInYandexBrowser.class
+TestsPersonalAccountInYandexBrowser.class

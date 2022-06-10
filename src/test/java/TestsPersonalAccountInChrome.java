@@ -6,14 +6,12 @@ import io.qameta.allure.junit4.DisplayName;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-import org.openqa.selenium.chrome.ChromeDriver;
 
 import static com.codeborne.selenide.Selenide.*;
-import static com.codeborne.selenide.WebDriverRunner.setWebDriver;
 import static org.junit.Assert.assertTrue;
 
-@Story("Тесты в личном кабинете в Яндексе")
-public class PersonalAccountTestsInYandexBrowser {
+@Story("Тесты в личном кабинете")
+public class TestsPersonalAccountInChrome {
 
     private MainPage mainPage;
     private PersonalAccountPage personalAccountPage;
@@ -25,10 +23,6 @@ public class PersonalAccountTestsInYandexBrowser {
         String email = "lesnoiolen666@gmail.com";
         String password = "123456";
 
-        ChromeDriver driver;
-        System.setProperty("webdriver.chrome.driver", "C:\\projects\\Diplom_3\\Webdriver\\yandexdriver.exe");
-        driver = new ChromeDriver();
-        setWebDriver(driver);
         mainPage = open("https://stellarburgers.nomoreparties.site/", MainPage.class);
         mainPage.clickToTheEnterButton();
 
@@ -47,28 +41,28 @@ public class PersonalAccountTestsInYandexBrowser {
     }
 
     @Test
-    @DisplayName("Тест перехода к разделу конструктора (Yandex)")
-    public void goToConstructorTestYandex() {
+    @DisplayName("Тест перехода к разделу конструктора")
+    public void goToConstructorTest() {
         assertTrue(mainPage.goToTheConstructor());
     }
 
     @Test
-    @DisplayName("Тест перехода через логотип (Yandex)")
+    @DisplayName("Тест перехода через логотип")
     public void goToStellarBurgerLogoTest() {
         assertTrue(mainPage.goToTheLogoButton());
     }
 
     @Test
-    @DisplayName("Тест выхода из аккаунта (Yandex)")
-    public void exitFromAccountTestYandex() {
+    @DisplayName("Тест выхода из аккаунта")
+    public void exitFromAccountTest() {
         personalAccountPage = open("https://stellarburgers.nomoreparties.site/account", PersonalAccountPage.class);
         personalAccountPage.exitFromAccount();
         assertTrue(loginPage.getTitleFromTheLoginPage());
     }
 
     @Test
-    @DisplayName("Тест входа в аккаунт (Yandex)")
-    public void enterToAccountTestYandex() {
+    @DisplayName("Тест входа в аккаунт")
+    public void enterToAccountTest() {
         personalAccountPage = open("https://stellarburgers.nomoreparties.site/account", PersonalAccountPage.class);
         assertTrue(personalAccountPage.getTextFromPersonalProfile());
     }

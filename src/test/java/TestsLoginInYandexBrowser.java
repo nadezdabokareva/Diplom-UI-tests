@@ -19,7 +19,7 @@ import static com.codeborne.selenide.WebDriverRunner.setWebDriver;
 import static org.junit.Assert.assertTrue;
 
 @Story("Тесты на авторизацию в Яндексе")
-public class LoginTestsInYandexBrowser {
+public class TestsLoginInYandexBrowser {
 
     public String emailForLogin;
     public String passwordForLogin;
