@@ -1,0 +1,174 @@
+{
+  "uid" : "aa4eb5e1bb607283",
+  "name" : "Тест успешной регистрации пользователя",
+  "fullName" : "TestsRegistrationInChrome.successfulRegistrationTest",
+  "historyId" : "dbabf52f75345a581dc1b0a0da93e71f",
+  "time" : {
+    "start" : 1654862631771,
+    "stop" : 1654862636069,
+    "duration" : 4298
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Нажать на кнопку входа",
+      "time" : {
+        "start" : 1654862634023,
+        "stop" : 1654862634154,
+        "duration" : 131
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Нажать на кнопку регистрации",
+      "time" : {
+        "start" : 1654862634290,
+        "stop" : 1654862634561,
+        "duration" : 271
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Регистрация нового пользователя",
+      "time" : {
+        "start" : 1654862634673,
+        "stop" : 1654862635244,
+        "duration" : 571
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "nameForRegistration",
+        "value" : "TrRnsnipBK"
+      }, {
+        "name" : "emailForRegistration",
+        "value" : "oifzfe@vrlmmj.ru"
+      }, {
+        "name" : "passwordForRegistration",
+        "value" : "eRqdtmR"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Регистрация пользователя",
+      "time" : {
+        "start" : 1654862635369,
+        "stop" : 1654862635589,
+        "duration" : 220
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "entity.User@4fba033c"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Получить заглавие со страницы авторизации",
+      "time" : {
+        "start" : 1654862635602,
+        "stop" : 1654862635734,
+        "duration" : 132
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Удаление пользователя",
+      "time" : {
+        "start" : 1654862635734,
+        "stop" : 1654862635915,
+        "duration" : 181
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "token",
+        "value" : "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyYTMzMzI2OTk5ZmIyMDAxYjcwM2MxZiIsImlhdCI6MTY1NDg2MjYzMCwiZXhwIjoxNjU0ODYzODMwfQ.rWRqnsB6W066JLmbN3J_oyfCCHoAMvwhRUBA-_SaR2c"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 6,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "TestsRegistrationInChrome"
+  }, {
+    "name" : "testMethod",
+    "value" : "successfulRegistrationTest"
+  }, {
+    "name" : "suite",
+    "value" : "TestsRegistrationInChrome"
+  }, {
+    "name" : "host",
+    "value" : "Boka"
+  }, {
+    "name" : "thread",
+    "value" : "9600@Boka.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "Тесты на регистрацию"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "aa4eb5e1bb607283.json",
+  "parameterValues" : [ ]
+}

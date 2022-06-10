@@ -1,0 +1,186 @@
+{
+  "uid" : "cba71161390bcc66",
+  "name" : "Тест авторизации через окно регистрации",
+  "fullName" : "TestsLoginInChrome.loginUserWithTheRegistrationForm",
+  "historyId" : "195e752ba9f15d626eef12072cdee76e",
+  "time" : {
+    "start" : 1654862569209,
+    "stop" : 1654862573719,
+    "duration" : 4510
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Создание пользователя",
+      "time" : {
+        "start" : 1654862569209,
+        "stop" : 1654862569457,
+        "duration" : 248
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "entity.User@60bd11f7"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Нажать на кнопку входа",
+      "time" : {
+        "start" : 1654862571495,
+        "stop" : 1654862571659,
+        "duration" : 164
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Нажать на кнопку регистрации",
+      "time" : {
+        "start" : 1654862571821,
+        "stop" : 1654862572111,
+        "duration" : 290
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Нажать на кнопку входа в аккаунт",
+      "time" : {
+        "start" : 1654862572246,
+        "stop" : 1654862572565,
+        "duration" : 319
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Авторизовать нового пользователя",
+      "time" : {
+        "start" : 1654862572566,
+        "stop" : 1654862573006,
+        "duration" : 440
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "emailForLogin",
+        "value" : "abdavk@xprxdm.ru"
+      }, {
+        "name" : "passwordForLogin",
+        "value" : "PfnmCXi"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Взять текст с кнопки 'офорить заказ'",
+      "time" : {
+        "start" : 1654862573006,
+        "stop" : 1654862573299,
+        "duration" : 293
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Удаление пользователя",
+      "time" : {
+        "start" : 1654862573299,
+        "stop" : 1654862573537,
+        "duration" : 238
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "token",
+        "value" : "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyYTMzMmU0OTk5ZmIyMDAxYjcwM2MwMiIsImlhdCI6MTY1NDg2MjU2NCwiZXhwIjoxNjU0ODYzNzY0fQ.cFei5wvIwgCylfapqACdSPKvFip6MWjT80qQ-326E90"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 7,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "TestsLoginInChrome"
+  }, {
+    "name" : "testMethod",
+    "value" : "loginUserWithTheRegistrationForm"
+  }, {
+    "name" : "suite",
+    "value" : "TestsLoginInChrome"
+  }, {
+    "name" : "host",
+    "value" : "Boka"
+  }, {
+    "name" : "thread",
+    "value" : "9600@Boka.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "Тесты на авторизацию"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cba71161390bcc66.json",
+  "parameterValues" : [ ]
+}
