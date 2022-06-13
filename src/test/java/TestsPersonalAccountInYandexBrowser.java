@@ -1,6 +1,6 @@
-import POM.LoginPage;
-import POM.MainPage;
-import POM.PersonalAccountPage;
+import pom.LoginPage;
+import pom.MainPage;
+import pom.PersonalAccountPage;
 import io.qameta.allure.Story;
 import io.qameta.allure.junit4.DisplayName;
 import org.junit.After;

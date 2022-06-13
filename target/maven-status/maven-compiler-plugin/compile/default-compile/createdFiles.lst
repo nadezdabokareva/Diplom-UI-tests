@@ -1,9 +1,9 @@
 entity\User.class
-POM\RegistrationPage.class
+pom\MainPage.class
+pom\LoginPage.class
 restClients\BasicRestClient.class
-POM\ForgotPasswordPage.class
-POM\LoginPage.class
+pom\RegistrationPage.class
 entity\User$UserBuilder.class
+pom\ForgotPasswordPage.class
 restClients\UserRestClient.class
-POM\MainPage.class
-POM\PersonalAccountPage.class
+pom\PersonalAccountPage.class

@@ -1,4 +1,4 @@
-import POM.MainPage;
+import pom.MainPage;
 import io.qameta.allure.Story;
 import io.qameta.allure.junit4.DisplayName;
 import org.junit.After;

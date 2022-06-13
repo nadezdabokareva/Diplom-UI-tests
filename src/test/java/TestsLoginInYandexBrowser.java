@@ -1,7 +1,7 @@
-import POM.ForgotPasswordPage;
-import POM.LoginPage;
-import POM.MainPage;
-import POM.RegistrationPage;
+import pom.ForgotPasswordPage;
+import pom.LoginPage;
+import pom.MainPage;
+import pom.RegistrationPage;
 import entity.User;
 import io.qameta.allure.Story;
 import io.qameta.allure.junit4.DisplayName;
